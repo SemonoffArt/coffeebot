@@ -4,13 +4,13 @@
 Предварительно необходимо установить [Python 3](https://www.python.org/getit/).
 Создайте директорию для проекта и распакуйте в нее файлы из данного репозитория.
 Заполните переменные в файле cb_telegram.py:
-  - telegram_token = "" #токен_телеграм
-  - ms_token = "" #токен для microsoft azure cs
-  - email_smtp_server = "" #SMTP сервер
-  - email_login = "" #логин для УЗ почтового сервера
-  - email_pwd = "" #пароль для УЗ почтового сервера
+  - telegram_token - токен_телеграм
+  - ms_token - токен для Microsoft Azure Cognitive Services
+  - email_smtp_server - SMTP сервер
+  - email_login - логин для УЗ почтового сервера
+  - email_pwd - пароль для УЗ почтового сервера
 
-Создайте 2 директории для обменом фото:
+Создайте 2 директории для обмена фото:
   - photos
   - sent_images
 ### Создание окружения и установка библиотек
